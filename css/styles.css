@@ -1,0 +1,41 @@
+body {
+    font-size:16px;
+    color:#000;
+    background-color: #e9e9ef;
+    font-family: 'Quicksand', sans-serif;
+}
+#head-nav{
+    background-color:#1b1b47;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand > h1{
+    margin:0px;
+    font-weight: bold;
+    font-size:1.5em;
+    color:#fff;
+    text-transform: uppercase;
+}
+#buttons-list > li > a{
+    font-weight: bold;
+    font-size:1.5em;
+    color:#fff;
+}
+#buttons-list > li >a :hover{
+    background-color:e9e9ef;
+}
+.myhide{
+    opacity: 0;
+    margin: auto;
+}
+.menu-content{
+    height: 1000px;
+    background-color:#6597aa;
+    color: #fff;
+}
+@media (max-width: 767px){
+    .myhide{
+        opacity: 1;
+    }
+}
